@@ -3,13 +3,13 @@ O objetivo do estudo é entender se existe algum movimento similar ao EUA em que
 
 Para isso é analisado o total de votos para prefeito por partido em todos os municípios, municípios >200mil habitantes e somente capitais.
 
-No cenário nacional é extremamente complicado definir o mapa ideológio dos partidos, assim será utilizado o GPS ideológico a Folha: http://temas.folha.uol.com.br/gps-ideologico/
+No cenário nacional é extremamente complicado definir o mapa ideológio dos partidos, assim será utilizado o GPS ideológico da Folha: http://temas.folha.uol.com.br/gps-ideologico/
 
 **Mapa ideológico dos partidos**
 
-- Esquerda: PCB / PT, UP, PSOL, PSTU / PC DO B, PCO / PDT, REDE, PSB, PV
-- Centro: SD, PROS, PTB / PRB, MDB, PP / PSDB, PMN, PMB / CDD, PSD
-- Direita: DEM, PL, DC, AVT, PSC, PODE / PATRI / NOVO, PRTB, PSL / PTC
+- **Esquerda**: PCB / PT, UP, PSOL, PSTU / PC DO B, PCO / PDT, REDE, PSB, PV
+- **Centro**: SD, PROS, PTB / PRB, MDB, PP / PSDB, PMN, PMB / CDD, PSD
+- **Direita**: DEM, PL, DC, AVT, PSC, PODE / PATRI / NOVO, PRTB, PSL / PTC
 
 Uma alternativa seria utilizar o basômetro do Estadão: https://arte.estadao.com.br/politica/basometro/
 
@@ -56,5 +56,5 @@ Já o **centrão** apresenta correlação negativa entre o total de municípios 
 ![Screenshot](output/correl.png)
 ![Screenshot](output/pairplot.png)
 
-## Próximos passos
-Mapa de calor do Brasil com quantidade de votos em prefeitos com determinada ideologia do partido.
+## Mapa Brasil por ideologia do partido
+![Screenshot](output/brasil_2020.png)
