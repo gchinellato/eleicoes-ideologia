@@ -45,14 +45,14 @@ Observando o gráfico de tendência dividido por ideologia é possível observar
 Por exemplo, os partidos de **esquerda** estão em baixa desde 2012, tanto no conjunto total de municípios, municípios >200mil e em capitais. Da mesma forma que o **centro democrático** se manteve estável ao longo do tempo nos três cenários, mas em 2020 perdeu espaço para partidos de **direita** e **centrão**.
 ![Screenshot](output/prefeitos_consolidado_agg.png)
 
-O gráfico de variação deixa evidente que não existe um padrão constante. Entre a eleição de 2008 o mesmo movimento é similar nos três cenários, porém na eleição de 2012, a **direita** ganha muita força nas capitais e perde nas cidades menores, <ins>anulando a hipótese de que grande centros são mais *progressistas*</ins>. As grandes cidades respondem de forma muita rápida manifestações nacionais, independente da ideologia, movimento que só acontece nos municípios menores na próxima eleição, como em 2016.
+O gráfico de variação deixa evidente que não existe um padrão constante. Entre as eleições de 2004 e 2008 o mesmo movimento é similar nos três cenários, porém na eleição de 2012, a **direita** ganha muita força nas capitais e perde nas cidades menores, <ins>anulando a hipótese de que grande centros são mais *progressistas*</ins>. As grandes cidades respondem de forma muita rápida manifestações nacionais, independente da ideologia, movimento que só acontece nos municípios menores na próxima eleição, como em 2016.
 ![Screenshot](output/prefeitos_consolidado_agg_var.png)
 
-A movimentação dos partidos de **esquerda** tem forte correleção nos três cenários. A ascensão da **esquerda** é refletida simultaneamente nas capitais e municípios menores. O **centro democrático** apresenta o mesmo comportamento.
+A movimentação dos partidos de **esquerda** tem forte correleção nos três cenários. A ascensão e declínio da **esquerda** são refletids simultaneamente nas capitais e municípios menores. O **centro democrático** apresenta o mesmo comportamento.
 
 Porém, a **direita** possui correlação neutra nos três cenários, não sendo possível determinar um padrão de ascensão ou declínio entre grandes centros e cidades menores.
 
-Já o **centrão** apresenta correlação negativa entre o total de municípios e municípios >200mil hab., indicando que quando o **centrão** se fortalece nas cidades menores, se enfraquece nas cidades grandes, mas quando se fortalece em municípios >200mil hab., também se fortalece nas capitais.
+Já o **centrão** apresenta correlação negativa entre o total de municípios/municípios >200mil hab. e total/capitais, indicando que quando o **centrão** se fortalece nas cidades menores, se enfraquece nas cidades grandes, mas quando se fortalece em municípios >200mil hab., também se fortalece nas capitais.
 ![Screenshot](output/correl.png)
 ![Screenshot](output/pairplot.png)
 
