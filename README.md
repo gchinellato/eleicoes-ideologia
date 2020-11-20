@@ -43,18 +43,18 @@ Como a categoria **Centr**o é muito ampla pelo fisiologismo dos partidos, o aut
 Observando o gráfico de tendência dividido por ideologia é possível observar que não existe uma grande diferença no comportamento de voto por determinada ideologia.
 
 Por exemplo, os partidos de **esquerda** estão em baixa desde 2012, tanto no conjunto total de municípios, municípios >200mil e em capitais. Da mesma forma que o **centro democrático** se manteve estável ao longo do tempo nos três cenários, mas em 2020 perdeu espaço para partidos de **direita** e **centrão**.
-![Screenshot](prefeitos_consolidado_agg.png)
+![Screenshot](output/prefeitos_consolidado_agg.png)
 
 O gráfico de variação deixa evidente que não existe um padrão constante, entre a eleição de 2008 o mesmo movimento é similar nos três cenários, porém na eleição de 2012, a **direita** ganha muita força nas capitais e perde nas cidades menores, <ins>anulando a hipótese de que grande centros são mais *progressistas*</ins>. As grandes cidades respondem de forma muita agressiva manifestações nacionais, independente da ideologia, movimento que só acontece nos municípios menores na próxima eleição, como em 2016.
-![Screenshot](prefeitos_consolidado_agg_var.png)
+![Screenshot](output/prefeitos_consolidado_agg_var.png)
 
 A movimentação dos partidos de **esquerda** tem forte correleção nos três cenários. A ascensão da **esquerda** é refletida simultaneamente nas capitais e municípios menores. O **centro democrático** apresenta o mesmo comportamento.
 
 Porém, a **direita** possui correlação neutra nos três cenários, não sendo possível determinar um padrão de ascensão ou declínio entre grandes centros e cidades menores.
 
 Já o **centrão** aprensa correlação negativa entre o total de municípios e municípios >200mil hab., indicando que quando o **centrão** se fortalece nas cidades menores, se enfraquece nas cidades grandes, mas quando se fortalece em municípios >200mil hab., também se fortalece nas capitais.
-![Screenshot](correl.png)
-![Screenshot](pairplot.png)
+![Screenshot](output/correl.png)
+![Screenshot](output/pairplot.png)
 
 ## Próximos passos
 Mapa de calor do Brasil com quantidade de votos em prefeitos com determinada ideologia do partido.
