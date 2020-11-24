@@ -1,7 +1,7 @@
 # Grandes cidades brasileiras são progressistas?
 O objetivo do estudo é entender se existe algum movimento similar ao EUA em que grandes cidades tendem a ser mais *progressistas* e cidades menores mais *conservadoras*.
 
-Para isso é analisado o total de prefeitos eleitos por partido por densidade densidade populacional.
+Para isso é analisado o total de prefeitos eleitos por partido por densidade populacional.
 
 No cenário nacional é extremamente complicado definir o mapa ideológio dos partidos, assim será utilizado o GPS ideológico da Folha: http://temas.folha.uol.com.br/gps-ideologico/
 
@@ -43,7 +43,7 @@ A classificação de grandes e pequenas cidades é definida utilizando os seguin
 - PST, PHS, PRP, PPL, PAN e PRONA foram extintos
 
 ## Resultados
-Observando o gráfico de tendência dividido por ideologia é possível observar que não existe uma grande diferença no comportamento de voto por determinada ideologia entre grandes e pequenos municípios.
+Observando o gráfico de tendência dividido por ideologia é possível notar que não existe uma grande diferença no comportamento de voto por determinada ideologia entre grandes e pequenos municípios.
 
 Por exemplo, os partidos de **esquerda** estão em baixa desde 2012, tanto entre cidades com grande densidade populacional e cidades menores. Da mesma forma que o **centro** se manteve estável ao longo do tempo em ambos cenários, mas em 2020 perderam espaço para partidos de **direita**.
 ![Screenshot](output/prefeitos_densidade_maiores_menores.png)
@@ -54,7 +54,7 @@ O gráfico de variação deixa evidente que o eleitorado é sazonal. Entre as el
 A hipótese de que <ins>grandes centros são mais *progressistas* no Brasil não se confirma</ins>, pois a relação entre municípios com grande e pouca densidade populacional é a mesma ao longo do tempo. O **centro** sempre como grupo político mais forte, seguido por **esquerda** e **direita** até 2016, porém em 2020, a **direita** se torna a segunda maior ideologia com prefeitos eleitos entre cidade grandes e menores.
 ![Alt Text](output/prefeitos-densidade-municipio.gif)
 
-Um fator interessante de analisar é a correlação entre entre cidades maiores, menores e somente capitais.
+Um fator interessante de analisar é a correlação entre cidades maiores, menores e somente capitais.
 A **esquerda** possui correlação positiva nas três comparações, indicando que uma ascensão ou declínio tende a refletir em conjunto em capitais, cidades grandes e pequenas.
 
 Porém, a **direita** não apresenta o mesmo comportamento de correlação quando capitais são envolvidas.
