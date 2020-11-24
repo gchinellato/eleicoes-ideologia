@@ -1,25 +1,28 @@
-# Evolução de Prefeitos Eleitos por Partido e Ideologia
+# Grandes cidades brasileiras são progressistas?
 O objetivo do estudo é entender se existe algum movimento similar ao EUA em que grandes cidades tendem a ser mais *progressistas* e cidades menores mais *conservadoras*.
 
-Para isso é analisado o total de votos para prefeito por partido em todos os municípios, municípios >200mil habitantes e somente capitais.
+Para isso é analisado o total de prefeitos eleitos por partido por densidade densidade populacional.
 
 No cenário nacional é extremamente complicado definir o mapa ideológio dos partidos, assim será utilizado o GPS ideológico da Folha: http://temas.folha.uol.com.br/gps-ideologico/
 
 **Mapa ideológico dos partidos**
 
-- **Esquerda**: PCB / PT, UP, PSOL, PSTU / PC DO B, PCO / PDT, REDE, PSB, PV
-- **Centro**: SD, PROS, PTB / PRB, MDB, PP / PSDB, PMN, PMB / CDD, PSD
-- **Direita**: DEM, PL, DC, AVT, PSC, PODE / PATRI / NOVO, PRTB, PSL / PTC
+- <ins>Esquerda</ins>: PCB / PT, UP, PSOL, PSTU / PC DO B, PCO / PDT, REDE, PSB, PV
+- <ins>Centro</ins>: SD, PROS, PTB / PRB, MDB, PP / PSDB, PMN, PMB / CDD, PSD
+- <ins>Direita</ins>: DEM, PL, DC, AVT, PSC, PODE / PATRI / NOVO, PRTB, PSL / PTC
 
 Uma alternativa seria utilizar o basômetro do Estadão: https://arte.estadao.com.br/politica/basometro/
 
-Como a categoria **Centro** é muito ampla pelo fisiologismo dos partidos, o autor deste estudo se permite dividir a categoria entre **Centrão** e **Centro Democrático**. Por mais que essa classificação seja subjetiva, é algo que pode ser refinado no futuro.
+O autor entende que é uma visão simplista agrupar os partidos em um único grupo ideológico, existem diversas esquerdas (progressista, trabalhista, socialista...), centros (centro democrático e centrão) e direitas (liberal, conversadora, reacionária...), porém isso pode ser refinado no futuro.
 
-- Centrão: SD, PROS, PTB / PRB, PP / PMN, PMB
-- Centro Dem: MDB / PSDB / CDD, PSD
+**Cidades grandes e pequenas**
+
+A classificação de grandes e pequenas cidades é definida utilizando os seguintes critérios:
+- <ins>Grandes cidades</ins>: Municípios com densidade populacional entre 200 e 20k pop/km2 (~400 cidades)
+- <ins>Pequenas cidades</ins>: Municípios com densidade populacional entre 0 e 200 pop/km2 (~5168 cidades)
 
 **Referências**
-
+- https://engaging-data.com/election-population-density/
 - https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017/
 - https://news.gallup.com/poll/275792/remained-center-right-ideologically-2019.aspx
 - https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html
@@ -40,21 +43,23 @@ Como a categoria **Centro** é muito ampla pelo fisiologismo dos partidos, o aut
 - PST, PHS, PRP, PPL, PAN e PRONA foram extintos
 
 ## Resultados
-Observando o gráfico de tendência dividido por ideologia é possível observar que não existe uma grande diferença no comportamento de voto por determinada ideologia.
+Observando o gráfico de tendência dividido por ideologia é possível observar que não existe uma grande diferença no comportamento de voto por determinada ideologia entre grandes e pequenos municípios.
 
-Por exemplo, os partidos de **esquerda** estão em baixa desde 2012, tanto no conjunto total de municípios, municípios >200mil e em capitais. Da mesma forma que o **centro democrático** se manteve estável ao longo do tempo nos três cenários, mas em 2020 perdeu espaço para partidos de **direita** e **centrão**.
-![Screenshot](output/prefeitos_consolidado_agg.png)
+Por exemplo, os partidos de **esquerda** estão em baixa desde 2012, tanto entre cidades com grande densidade populacional e cidades menores. Da mesma forma que o **centro** se manteve estável ao longo do tempo em ambos cenários, mas em 2020 perderam espaço para partidos de **direita**.
+![Screenshot](output/prefeitos_densidade_maiores_menores.png)
 
-O gráfico de variação deixa evidente que não existe um padrão constante. Entre as eleições de 2004 e 2008 o mesmo movimento é similar nos três cenários, porém na eleição de 2012, a **direita** ganha muita força nas capitais e perde nas cidades menores, <ins>anulando a hipótese de que grande centros são mais *progressistas*</ins>. As grandes cidades respondem de forma muita rápida manifestações nacionais, independente da ideologia, movimento que só acontece nos municípios menores na próxima eleição, como em 2016.
-![Screenshot](output/prefeitos_consolidado_agg_var.png)
+O gráfico de variação deixa evidente que o eleitorado é sazonal. Entre as eleições de 2004, 2008 e 2012 o mesmo movimento é similar nos dois cenários, porém na eleição de 2016, a **direita** conquista um grande espaço nas grandes cidades e não tanto nas cidades menores. As grandes cidades respondem de forma muita rápida manifestações nacionais, independente da ideologia, movimento que só acontece nos municípios menores na próxima eleição, como em 2020.
+![Screenshot](output/prefeitos_densidade_maiores_menores_var.png)
 
-A movimentação dos partidos de **esquerda** tem forte correleção nos três cenários. A ascensão e declínio da **esquerda** são refletids simultaneamente nas capitais e municípios menores. O **centro democrático** apresenta o mesmo comportamento.
+A hipótese de que <ins>grandes centros são mais *progressistas* no Brasil não se confirma</ins>, pois a relação entre municípios com grande e pouca densidade populacional é a mesma ao longo do tempo. O **centro** sempre como grupo político mais forte, seguido por **esquerda** e **direita** até 2016, porém em 2020, a **direita** se torna a segunda maior ideologia com prefeitos eleitos entre cidade grandes e menores.
+![Alt Text](output/prefeitos-densidade-municipio.gif)
 
-Porém, a **direita** possui correlação neutra nos três cenários, não sendo possível determinar um padrão de ascensão ou declínio entre grandes centros e cidades menores.
+Um fator interessante de analisar é a correlação entre entre cidades maiores, menores e somente capitais.
+A **esquerda** possui correlação positiva nas três comparações, indicando que uma ascensão ou declínio tende a refletir em conjunto em capitais, cidades grandes e pequenas.
 
-Já o **centrão** apresenta correlação negativa entre o total de municípios/municípios >200mil hab. e total/capitais, indicando que quando o **centrão** se fortalece nas cidades menores, se enfraquece nas cidades grandes, mas quando se fortalece em municípios >200mil hab., também se fortalece nas capitais.
+Porém, a **direita** não apresenta o mesmo comportamento de correlação quando capitais são envolvidas.
 ![Screenshot](output/correl.png)
 ![Screenshot](output/pairplot.png)
 
 ## Mapa Brasil por ideologia do partido
-![Screenshot](output/brasil_2020.png)
+![Screenshot](output/prefeitos_eleitos_grandes_centros.PNG)
