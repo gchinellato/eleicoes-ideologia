@@ -49,6 +49,8 @@ Por exemplo, os partidos de **esquerda** estão em baixa desde 2016, tanto entre
 
 ![Screenshot](output/prefeitos_densidade_maiores_menores.png)
 
+![Alt Text](output/prefeitos-eleitos-ideologia-maiores-arc.gif) ![Alt Text](output/prefeitos-eleitos-ideologia-menores-arc.gif)
+
 O gráfico de variação deixa evidente que o eleitorado é sazonal. Entre as eleições de 2004, 2008 e 2012 o mesmo movimento é similar nos dois cenários, porém na eleição de 2016, a **direita** conquista um grande espaço nas grandes cidades e não tanto nas cidades menores. As grandes cidades respondem de forma muita rápida manifestações nacionais, independente da ideologia, movimento que só acontece nos municípios menores na próxima eleição, como em 2020.
 
 ![Screenshot](output/prefeitos_densidade_maiores_menores_var.png)
