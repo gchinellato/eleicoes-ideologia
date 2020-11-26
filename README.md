@@ -54,6 +54,10 @@ O gráfico de variação deixa evidente que o eleitorado é sazonal. Entre as el
 A hipótese de que <ins>grandes centros são mais *progressistas* no Brasil não se confirma</ins>, pois a relação entre municípios com grande e pouca densidade populacional é a mesma ao longo do tempo. O **centro** sempre como grupo político mais forte, seguido por **esquerda** e **direita** até 2016, porém em 2020, a **direita** se torna a segunda maior ideologia com prefeitos eleitos entre cidade grandes e menores.
 ![Alt Text](output/prefeitos-densidade-municipio.gif)
 
+Atualmente, nas grandes cidades, o **centro** representa 62%, **direita** 25% e **esquerda** 13%.
+O partido com mais prefeitos eleitos da **esquerda** é o PDT, onde o PT continua em plena queda desde 2012. Entre o **centro** os principais partidos são MDB, PP e PSD e na **direita** o DEM está em ascensão.
+![Screenshot](output/prefeitos_partido_total.png)
+
 Um fator interessante de analisar é a correlação entre cidades maiores, menores e somente capitais.
 A **esquerda** possui correlação positiva nas três comparações, indicando que uma ascensão ou declínio tende a refletir em conjunto em capitais, cidades grandes e pequenas.
 
