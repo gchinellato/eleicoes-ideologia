@@ -3,7 +3,7 @@ O objetivo do estudo é entender se existe algum movimento similar ao EUA em que
 
 Para isso é analisado o total de prefeitos eleitos por partido por densidade populacional.
 
-No cenário nacional é extremamente complicado definir o mapa ideológio dos partidos, assim será utilizado o GPS ideológico da Folha: http://temas.folha.uol.com.br/gps-ideologico/
+No cenário brasileiro é extremamente complicado definir o mapa ideológio dos partidos, por exemplo, o diretório nacional de um partido pode ter um viés mais centro/direita e o diretório estadual mais centro/esquerda. Como o autor desconhece uma forma objetiva de classificar a ideologia dos partidos por região, é utilizado o GPS ideológico da Folha: http://temas.folha.uol.com.br/gps-ideologico/
 
 **Mapa ideológico dos partidos**
 
@@ -13,7 +13,7 @@ No cenário nacional é extremamente complicado definir o mapa ideológio dos pa
 
 Uma alternativa seria utilizar o basômetro do Estadão: https://arte.estadao.com.br/politica/basometro/
 
-O autor entende que é uma visão simplista agrupar os partidos em um único grupo ideológico, existem diversas esquerdas (progressista, trabalhista, socialista...), centros (centro democrático e centrão) e direitas (liberal, conversadora, reacionária...), porém isso pode ser refinado no futuro.
+O autor também entende que é uma visão simplista agrupar os partidos em um único grupo ideológico, existem diversas esquerdas (progressista, trabalhista, socialista...), centros (centro democrático e centrão) e direitas (liberal, conversadora, reacionária...), porém isso pode ser refinado no futuro.
 
 **Cidades grandes e pequenas**
 
@@ -65,5 +65,5 @@ Porém, a **direita** não apresenta o mesmo comportamento de correlação quand
 ![Screenshot](output/correl.png)
 ![Screenshot](output/pairplot.png)
 
-## Mapa Brasil por ideologia do partido
+## Mapa Brasil por Ideologia do Partido
 ![Screenshot](output/prefeitos_eleitos_grandes_centros.PNG)
