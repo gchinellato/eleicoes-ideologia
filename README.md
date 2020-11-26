@@ -45,24 +45,28 @@ A classificação de grandes e pequenas cidades é definida utilizando os seguin
 ## Resultados
 Observando o gráfico de tendência dividido por ideologia é possível notar que não existe uma grande diferença no comportamento de voto por determinada ideologia entre grandes e pequenos municípios.
 
-Por exemplo, os partidos de **esquerda** estão em baixa desde 2012, tanto entre cidades com grande densidade populacional e cidades menores. Da mesma forma que o **centro** se manteve estável ao longo do tempo em ambos cenários, mas em 2020 perderam espaço para partidos de **direita**.
+Por exemplo, os partidos de **esquerda** estão em baixa desde 2016, tanto entre cidades com grande densidade populacional e cidades menores. Da mesma forma que o **centro** se manteve estável ao longo do tempo em ambos cenários, mas em 2020 perderam espaço para partidos de **direita**.
+
 ![Screenshot](output/prefeitos_densidade_maiores_menores.png)
 
 O gráfico de variação deixa evidente que o eleitorado é sazonal. Entre as eleições de 2004, 2008 e 2012 o mesmo movimento é similar nos dois cenários, porém na eleição de 2016, a **direita** conquista um grande espaço nas grandes cidades e não tanto nas cidades menores. As grandes cidades respondem de forma muita rápida manifestações nacionais, independente da ideologia, movimento que só acontece nos municípios menores na próxima eleição, como em 2020.
+
 ![Screenshot](output/prefeitos_densidade_maiores_menores_var.png)
 
 A hipótese de que <ins>grandes centros são mais *progressistas* no Brasil não se confirma</ins>, pois a relação entre municípios com grande e pouca densidade populacional é a mesma ao longo do tempo. O **centro** sempre como grupo político mais forte, seguido por **esquerda** e **direita** até 2016, porém em 2020, a **direita** se torna a segunda maior ideologia com prefeitos eleitos entre cidade grandes e menores.
 ![Alt Text](output/prefeitos-densidade-municipio.gif)
 
 Atualmente, nas grandes cidades, o **centro** representa 62%, **direita** 25% e **esquerda** 13%.
-O partido com mais prefeitos eleitos da **esquerda** é o PDT, onde o PT continua em plena queda desde 2012. Entre o **centro** os principais partidos são MDB, PP e PSD e na **direita** o DEM está em ascensão.
+
+O partido com mais prefeitos eleitos da **esquerda** é o PDT, onde o PT continua em plena queda desde 2016. Entre o **centro**, os principais partidos são MDB, PP e PSD e na **direita** o DEM está em ascensão.
+
 ![Screenshot](output/prefeitos_partido_total.png)
 
 Um fator interessante de analisar é a correlação entre cidades maiores, menores e somente capitais.
-A **esquerda** possui correlação positiva nas três comparações, indicando que uma ascensão ou declínio tende a refletir em conjunto em capitais, cidades grandes e pequenas.
+A **esquerda** possui correlação positiva nas três comparações, indicando que uma ascensão ou declínio tende a refletir em conjunto em capitais, cidades grandes e pequenas. Porém, a **direita** não apresenta o mesmo comportamento de correlação quando capitais são envolvidas.
 
-Porém, a **direita** não apresenta o mesmo comportamento de correlação quando capitais são envolvidas.
 ![Screenshot](output/correl.png)
+
 ![Screenshot](output/pairplot.png)
 
 ## Mapa Brasil por Ideologia do Partido
