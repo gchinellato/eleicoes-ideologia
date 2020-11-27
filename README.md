@@ -3,7 +3,7 @@ O objetivo do estudo é entender se existe algum movimento similar ao EUA em que
 
 Para isso é analisado o total de prefeitos eleitos por partido por densidade populacional.
 
-No cenário brasileiro é extremamente complicado definir o mapa ideológio dos partidos, por exemplo, o diretório nacional de um partido pode ter um viés mais centro/direita e o diretório estadual mais centro/esquerda. Como o autor desconhece uma forma objetiva de classificar a ideologia dos partidos por região, é utilizado o GPS ideológico da Folha: http://temas.folha.uol.com.br/gps-ideologico/
+No cenário brasileiro é extremamente complicado definir o mapa ideológico dos partidos, por exemplo, o diretório nacional de um partido pode ter um viés mais centro/direita e o diretório estadual mais centro/esquerda. Como o autor desconhece uma forma objetiva de classificar a ideologia dos partidos por região, é utilizado o GPS ideológico da Folha: http://temas.folha.uol.com.br/gps-ideologico/
 
 **Mapa ideológico dos partidos**
 
@@ -71,5 +71,5 @@ A **esquerda** possui correlação positiva nas três comparações, indicando q
 
 ![Screenshot](output/pairplot.png)
 
-## Mapa Brasil por Ideologia do Partido
+## Mapa do Brasil por Ideologia do Partido
 ![Screenshot](output/prefeitos_eleitos_grandes_centros.PNG)
