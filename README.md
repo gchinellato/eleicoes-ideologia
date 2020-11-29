@@ -18,8 +18,9 @@ O autor também entende que é uma visão simplista agrupar os partidos em um ú
 **Cidades grandes e pequenas**
 
 A classificação de grandes e pequenas cidades é definida utilizando os seguintes critérios:
-- <ins>Grandes cidades</ins>: Municípios com densidade populacional entre 200 e 20k pop/km2 (~400 cidades)
-- <ins>Pequenas cidades</ins>: Municípios com densidade populacional entre 0 e 200 pop/km2 (~5168 cidades)
+- <ins>Cidade Grande</ins>: Municípios com população >500mil habitantes (49)
+- <ins>Cidade Média</ins>: Municípios com população entre 100mil e 500mil habitantes (277)
+- <ins>Cidade Pequena</ins>: Municípios com população <100mil habitantes (5244)
 
 **Referências**
 - https://engaging-data.com/election-population-density/
@@ -40,32 +41,31 @@ A classificação de grandes e pequenas cidades é definida utilizando os seguin
 - PPS virou CDD em março de 2019
 - PR virou PL em maio de 2019
 - PRB virou PR em agosto de 2019
-- PST, PHS, PRP, PPL, PAN e PRONA foram extintos
+- PGT, PST, PHS, PRP, PPL, PAN e PRONA foram extintos
 
 ## Resultados
-Observando o gráfico de tendência dividido por ideologia é possível notar que não existe uma grande diferença no comportamento de voto por determinada ideologia entre grandes e pequenos municípios.
+Observando o gráfico de tendência dividido por ideologia é possível notar que não existe uma grande diferença no comportamento de voto por determinada ideologia entre grandes e pequenos municípios ao longo do tempo.
 
-Por exemplo, os partidos de **esquerda** estão em baixa desde 2016, tanto entre cidades com grande densidade populacional e cidades menores. Da mesma forma que o **centro** se manteve estável ao longo do tempo em ambos cenários, mas em 2020 perderam espaço para partidos de **direita**.
+Por exemplo, os partidos de **esquerda** tinham uma força em grandes cidades, mas estão em baixa desde 2016, tanto entre cidades grandes, médiass e pequenas. Da mesma forma que o **centro** se manteve estável ao longo do tempo em ambos cenários, mas em 2016 perdeu espaço para partidos de **direita** em cidades médias e pequenas e em 2020 em cidades grandes.
 
-![Screenshot](output/prefeitos_densidade_maiores_menores.png)
+![Screenshot](output/prefeitos_ideologia.png)
 
-![Alt Text](output/prefeitos-eleitos-ideologia-arc.gif)
+O gráfico de variação deixa evidente que o eleitorado é sazonal. Existem períodos que a **esquerda** e **direita** se fortalecem em grandes cidades, como em 2004, mas desde 2016 a **direita** cresceu muito em cidades médias e pequenas, enquanto a **esquerda** se enfraqueceu muito.
 
-O gráfico de variação deixa evidente que o eleitorado é sazonal. Entre as eleições de 2004, 2008 e 2012 o mesmo movimento é similar nos dois cenários, porém na eleição de 2016, a **direita** conquista um grande espaço nas grandes cidades e não tanto nas cidades menores. As grandes cidades respondem de forma muita rápida manifestações nacionais, independente da ideologia, movimento que só acontece nos municípios menores na próxima eleição, como em 2020.
+![Screenshot](output/prefeitos_ideologia_var.png)
 
-![Screenshot](output/prefeitos_densidade_maiores_menores_var.png)
+A hipótese de que <ins>grandes centros são mais *progressistas* no Brasil não se confirma</ins>, pois a relação entre municípios grandes, médios e pquenos varia ao longo do tempo. O **centro** sempre como ideologia principal no país, porém entre 2000 e 2012 a **esquerda** apresenta uma maior força em grandes cidades e cidades pequenas dividas entre **centro** e **direita**. A partir de 2016 a **esquerda** derrete em todos os cenários e o **centro** se fortalece muito, onde em 2020 esse movimento continua com a **direita** aumentando sua participação de forma proporcional em cidades grandes e pequenas.
 
-A hipótese de que <ins>grandes centros são mais *progressistas* no Brasil não se confirma</ins>, pois a relação entre municípios com grande e pouca densidade populacional é a mesma ao longo do tempo. O **centro** sempre como grupo político mais forte, seguido por **esquerda** e **direita** até 2016, porém em 2020, a **direita** se torna a segunda maior ideologia com prefeitos eleitos entre cidade grandes e menores.
-![Alt Text](output/prefeitos-densidade-municipio.gif)
+![Alt Text](output/prefeitos_ideologia_perc.gif)
 
-Atualmente, nas grandes cidades, o **centro** representa 62%, **direita** 25% e **esquerda** 13%.
+Atualmente, nas grandes cidades, o **centro** representa 67%, **direita** 28% e **esquerda** 5%.
 
 O partido com mais prefeitos eleitos da **esquerda** é o PDT, onde o PT continua em plena queda desde 2016. Entre o **centro**, os principais partidos são MDB, PP e PSD e na **direita** o DEM está em ascensão.
 
 ![Screenshot](output/prefeitos_partido_total.png)
 
-Um fator interessante de analisar é a correlação entre cidades maiores, menores e somente capitais.
-A **esquerda** possui correlação positiva nas três comparações, indicando que uma ascensão ou declínio tende a refletir em conjunto em capitais, cidades grandes e pequenas. Porém, a **direita** não apresenta o mesmo comportamento de correlação quando capitais são envolvidas.
+Um fator interessante de analisar é a correlação entre cidades grandes, médias e pequenas.
+A **esquerda** possui correlação positiva nas três comparações, indicando que uma ascensão ou declínio tende a refletir em conjunto em capitais, cidades grandes e pequenas. Porém, a **direita** não apresenta o mesmo comportamento de correlação quando grandes cidades são envolvidas.
 
 ![Screenshot](output/correl.png)
 
@@ -73,3 +73,5 @@ A **esquerda** possui correlação positiva nas três comparações, indicando q
 
 ## Mapa do Brasil por Ideologia do Partido
 ![Screenshot](output/prefeitos_eleitos_grandes_centros.PNG)
+![Screenshot](output/prefeitos-eleitos-por-ideologia-do-partido-ranking.png)
+
