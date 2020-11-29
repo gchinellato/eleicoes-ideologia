@@ -73,6 +73,6 @@ A **esquerda** possui correlação positiva nas três comparações, indicando q
 ![Screenshot](output/prefeitos_pairplot.png)
 
 ## Mapa do Brasil por Ideologia do Partido
-![Screenshot](output/prefeitos_eleitos_grandes_centros.PNG)
+![Screenshot](output/brasil-prefeitos-grandes-centros.png)
 ![Screenshot](output/prefeitos-eleitos-por-ideologia-do-partido-ranking.png)
 
