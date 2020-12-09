@@ -128,7 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-input/2019-04-08/*
 input/geo/*
-input/prefeitos2020.csv
-input/vereadores2020.csv
+input/tse/*
